@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:cim="http://iec.ch/TC57/2014/CIM-schema-cim16#"
+    xmlns:cims="http://iec.ch/TC57/1999/rdf-schema-extensions-1999#"
+    xmlns:cimg="http://iec.ch/TC57/61970-556#"
+    width="1200"
+    height="800"
+    viewBox="0 0 1200 800"
+    cimg:type="substation"
+    cimg:app="SCADA"
+    cimg:context="realtime"
+>
+  <metadata>
+    <cimg:Diagram cimg:diagramType="substation" cimg:application="SCADA" cimg:context="realtime">
+      <cimg:DataList cimg:type="state" cimg:num="10" cimg:start="1" cimg:end="10" />
+      <cimg:DataList cimg:type="measure" cimg:num="20" cimg:start="11" cimg:end="30" />
+    </cimg:Diagram>
+  </metadata>
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+        .cimg-equipment { stroke: currentColor; fill: none; }
+        .cimg-busbar { stroke-width: 4px; }
+        .cimg-link { stroke: currentColor; stroke-width: 1.5px; fill: none; }
+        .cimg-dtext { font-family: Arial, sans-serif; font-size: 14px; fill: currentColor; }
+        .volt-330kv { stroke: rgb(30, 144, 255); fill: none; }
+        .volt-330kv-fill { fill: rgb(30, 144, 255); }
+        .volt-35kv { stroke: rgb(255, 255, 0); fill: none; }
+        .volt-35kv-fill { fill: rgb(255, 255, 0); }
+        .volt-15kv { stroke: rgb(0, 128, 0); fill: none; }
+        .volt-15kv-fill { fill: rgb(0, 128, 0); }
+        .volt-660kv { stroke: rgb(250, 128, 10); fill: none; }
+        .volt-660kv-fill { fill: rgb(250, 128, 10); }
+        .volt-800kv { stroke: rgb(0, 0, 255); fill: none; }
+        .volt-800kv-fill { fill: rgb(0, 0, 255); }
+        .volt-500kv { stroke: rgb(255, 0, 0); fill: none; }
+        .volt-500kv-fill { fill: rgb(255, 0, 0); }
+        .volt-0kv { stroke: rgb(128, 128, 128); fill: none; }
+        .volt-0kv-fill { fill: rgb(128, 128, 128); }
+        .volt-66kv { stroke: rgb(255, 204, 0); fill: none; }
+        .volt-66kv-fill { fill: rgb(255, 204, 0); }
+        .volt-1000kv { stroke: rgb(0, 0, 255); fill: none; }
+        .volt-1000kv-fill { fill: rgb(0, 0, 255); }
+        .volt-6kv { stroke: rgb(0, 0, 139); fill: none; }
+        .volt-6kv-fill { fill: rgb(0, 0, 139); }
+        .volt-220kv { stroke: rgb(128, 0, 128); fill: none; }
+        .volt-220kv-fill { fill: rgb(128, 0, 128); }
+        .volt-110kv { stroke: rgb(240, 65, 85); fill: none; }
+        .volt-110kv-fill { fill: rgb(240, 65, 85); }
+        .volt-20kv { stroke: rgb(226, 172, 6); fill: none; }
+        .volt-20kv-fill { fill: rgb(226, 172, 6); }
+        .volt-400kv { stroke: rgb(255, 0, 0); fill: none; }
+        .volt-400kv-fill { fill: rgb(255, 0, 0); }
+        .volt-750kv { stroke: rgb(250, 128, 10); fill: none; }
+        .volt-750kv-fill { fill: rgb(250, 128, 10); }
+        .volt-13kv { stroke: rgb(0, 210, 0); fill: none; }
+        .volt-13kv-fill { fill: rgb(0, 210, 0); }
+        .volt-10kv { stroke: rgb(185, 72, 66); fill: none; }
+        .volt-10kv-fill { fill: rgb(185, 72, 66); }
+        .style-default-font-family { font-family: Arial; }
+        .style-default-fill-color { fill: rgb(0, 0, 255); }
+        .style-default-line-color { stroke: rgb(0, 0, 255); }
+        .style-default-line-style { stroke-dasharray: 1; }
+        .style-default-line-width { stroke-width: 1px; }
+        .style-default-font-size { font-size: 14px; }
+        .style-default-fill-mode { }
+        .style-default-transform { }
+      ]]>
+    </style>
+    <g id="shuntcapacitor0" class="symbol-shuntcapacitor" data-box="0 0 26 40">
+      <line x1="13" y1="5" x2="13" y2="16" />
+      <line x1="4" y1="16" x2="22" y2="16" />
+      <line x1="4" y1="22" x2="22" y2="22" />
+      <line x1="13" y1="30" x2="13" y2="38" />
+    </g>
+    <g id="shuntreactor0" class="symbol-shuntreactor" data-box="0 0 26 40">
+      <path d="M13,10 a8,8 0 1 0 -5,8" />
+      <line x1="13" y1="3" x2="13" y2="10" />
+      <line x1="5" y1="18" x2="13" y2="18" />
+      <line x1="13" y1="18" x2="13" y2="37" />
+      <line x1="4" y1="37" x2="22" y2="37" />
+      <line x1="6" y1="39" x2="20" y2="39" />
+      <line x1="8" y1="41" x2="18" y2="41" />
+    </g>
+    <g id="busbarsection0" class="symbol-busbarsection" data-box="0 0 100 4">
+      <line x1="0" y1="2" x2="100" y2="2" stroke="currentColor" stroke-width="4" />
+    </g>
+    <g id="disconnector0" class="symbol-disconnector" data-box="0 0 36 18">
+      <circle cx="6" cy="9" r="2" stroke="currentColor" fill="none" />
+      <line x1="6" y1="9" x2="30" y2="9" stroke="currentColor" stroke-width="1" />
+      <circle cx="30" cy="9" r="2" stroke="currentColor" fill="none" />
+    </g>
+    <g id="bus0" class="symbol-bus" data-box="0 0 100 4">
+      <line x1="0" y1="2" x2="100" y2="2" stroke="currentColor" stroke-width="4" />
+    </g>
+    <g id="powertransformer3_0" class="symbol-powertransformer3" data-box="0 0 62 40">
+      <circle cx="40" cy="20" r="16" />
+      <circle cx="25" cy="40" r="16" />
+      <circle cx="55" cy="40" r="16" />
+    </g>
+    <g id="grounddisconnector0" class="symbol-grounddisconnector" data-box="0 0 40 24">
+      <circle cx="6" cy="12" r="2" />
+      <line x1="6" y1="12" x2="14" y2="12" />
+      <line x1="14" y1="9" x2="14" y2="15" />
+      <line x1="14" y1="12" x2="22" y2="5" />
+      <line x1="22" y1="12" x2="30" y2="12" />
+      <line x1="30" y1="7" x2="30" y2="17" />
+      <line x1="32" y1="8" x2="32" y2="16" />
+      <line x1="34" y1="9" x2="34" y2="15" />
+    </g>
+    <g id="powertransformer_0" class="symbol-powertransformer" data-box="0 0 62 40">
+      <circle cx="20" cy="20" r="16" stroke="currentColor" stroke-width="1" fill="none" />
+      <circle cx="20" cy="40" r="16" stroke="currentColor" stroke-width="1" fill="none" />
+    </g>
+    <g id="breaker0" class="symbol-breaker" data-box="0 0 42 18">
+      <rect x="4" y="3" width="12" height="28" stroke="currentColor" stroke-width="1" fill="none" fill-rule="evenodd" />
+    </g>
+    <g id="aclinesegment0" class="symbol-aclinesegment" data-box="0 0 100 20">
+      <line x1="0" y1="10" x2="100" y2="10" stroke="currentColor" stroke-width="1.5" />
+    </g>
+    <g id="powerplantmark0" class="symbol-powerplantmark" data-box="0 0 60 40">
+      <rect x="2" y="2" width="56" height="36" stroke="currentColor" fill="none" />
+      <path d="M5,20 a7,7 1 0 14,0" />
+      <path d="M33,20 a7,7 1 0 -14,0" />
+    </g>
+    <g id="powertransformer2_0" class="symbol-powertransformer2" data-box="0 0 62 40">
+      <circle cx="20" cy="20" r="16" stroke="currentColor" stroke-width="1" fill="none" />
+      <circle cx="20" cy="40" r="16" stroke="currentColor" stroke-width="1" fill="none" />
+    </g>
+    <g id="substationmark0" class="symbol-substationmark" data-box="0 0 25 25">
+      <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5" fill="none" />
+    </g>
+    <g id="generator0" class="symbol-generator" data-box="0 0 38 40">
+      <circle cx="19" cy="20" r="14" stroke="currentColor" stroke-width="1" fill="none" />
+      <path d="M5,20 a7,7 1 0 14,0" stroke="currentColor" fill="none" />
+      <path d="M33,20 a7,7 1 0 -14,0" stroke="currentColor" fill="none" />
+    </g>
+  </defs>
+  <rect class="cimg-background" x="0" y="0" width="1200" height="800" fill="rgb(245, 245, 245)" />
+  <g class="cimg-container cimg-substation" id="Substation_South" transform="translate(50, 50)" cims:data="#Substation001" cims:show="0,0,0,0" cimg:grid="G1">
+    <g class="cimg-container cimg-voltagelevel" id="500kV" transform="translate(50, 50)" cims:data="#VL_500kV" cims:show="0,5,0,0">
+      <g class="cimg-equipment cimg-busbarsection volt-500kV" id="Bus_500_1" transform="translate(100, 100) scale(8.0000, 2.5000)" cims:data="#Bus5001" cims:show="0,5,0,0" stroke="rgb(255, 0, 0)">
+        <line x1="0" y1="2" x2="100" y2="2" stroke="currentColor" stroke-width="4" />
+      </g>
+      <g class="cimg-container cimg-bay" id="Bay_501" transform="translate(150, 120)" cims:data="#Bay501" cims:show="0,5,0,0">
+        <g class="cimg-equipment cimg-breaker volt-500kV" id="CB_501" transform="translate(170, 140) scale(0.4762, 1.1111)" cims:data="#CB501" cims:show="0,5,0,0" cims:A="F1" stroke="rgb(255, 0, 0)">
+          <rect x="4" y="3" width="12" height="28" stroke="currentColor" stroke-width="1" fill="none" fill-rule="evenodd" />
+        </g>
+        <g class="cimg-equipment cimg-disconnector volt-500kV" id="DIS_501A" transform="translate(170, 120) scale(0.5556, 1.1111)" cims:data="#DIS501A" cims:show="0,5,0,0" stroke="rgb(255, 0, 0)">
+          <circle cx="6" cy="9" r="2" stroke="currentColor" fill="none" />
+          <line x1="6" y1="9" x2="30" y2="9" stroke="currentColor" stroke-width="1" />
+          <circle cx="30" cy="9" r="2" stroke="currentColor" fill="none" />
+        </g>
+        <text class="cimg-dtext" id="DText_CB501_P" x="200" y="145" cims:data="#CB501_MW" cims:show="0,5,0,0">450.2 MW</text>
+      </g>
+    </g>
+    <g class="cimg-container cimg-voltagelevel" id="220kV" transform="translate(50, 300)" cims:data="#VL_220kV" cims:show="0,8,0,0">
+      <g class="cimg-equipment cimg-busbarsection volt-220kV" id="Bus_220_1" transform="translate(100, 350) scale(8.0000, 2.5000)" cims:data="#Bus2201" cims:show="0,8,0,0" stroke="rgb(128, 0, 128)">
+        <line x1="0" y1="2" x2="100" y2="2" stroke="currentColor" stroke-width="4" />
+      </g>
+      <g class="cimg-container cimg-bay" id="Bay_201" transform="translate(150, 370)" cims:data="#Bay201" cims:show="0,8,0,0">
+        <g class="cimg-equipment cimg-breaker volt-220kV" id="CB_201" transform="translate(170, 390) scale(0.4762, 1.1111)" cims:data="#CB201" cims:show="0,8,0,0" stroke="rgb(128, 0, 128)">
+          <rect x="4" y="3" width="12" height="28" stroke="currentColor" stroke-width="1" fill="none" fill-rule="evenodd" />
+        </g>
+        <text class="cimg-dtext" id="DText_CB201_P" x="200" y="395" cims:data="#CB201_MW" cims:show="0,8,0,0">180.5 MW</text>
+      </g>
+    </g>
+    <g class="cimg-equipment cimg-powertransformer volt-500kV" id="Trans_Main_1" transform="translate(500, 230) scale(0.6452, 1.2500)" cims:data="#T01" cims:show="0,5,0,0" stroke="rgb(255, 0, 0)">
+      <circle cx="20" cy="20" r="16" stroke="currentColor" stroke-width="1" fill="none" />
+      <circle cx="20" cy="40" r="16" stroke="currentColor" stroke-width="1" fill="none" />
+    </g>
+    <polyline class="cimg-link" points="180,160 180,230" cims:connect="glue0,CB_501;glue0,Trans_Main_1" cims:show="0,5,0,0" />
+  </g>
+</svg>

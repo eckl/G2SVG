@@ -1,0 +1,16 @@
+[package]
+name = "g2svg"
+version = "0.1.0"
+edition = "2024"
+authors = ["Antigravity"]
+description = "A converter from CIM/G to CIM/SVG based on IEC 61970-453 and IEC TS 61970-556"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+roxmltree = "0.20"
+quick-xml = { version = "0.37" }
+encoding_rs = "0.8"
+thiserror = "2.0"
+regex = "1.11"
+log = "0.4"
+env_logger = "0.11"
